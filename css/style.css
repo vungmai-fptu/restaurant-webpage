@@ -3,6 +3,10 @@ body {
     z-index: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .row-header {
     margin: 0px auto;
     padding: 0px;
@@ -11,8 +15,18 @@ body {
 .jumbotron {
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
-    background: #9575CD;
+    background: #DEB3AD;
     color: floralwhite;
+}
+
+.btn {
+    text-decoration: none;
+    background: #B95C50;
+    color: wheat;
+} 
+
+.btn h4:hover {
+    color: #fff;
 }
 
 address {
@@ -30,11 +44,32 @@ address {
 }
 
 .footer {
-    background-color: #D1C4E9;
+    background-color: #B95C50;
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
+    color: #fff;
 }
 
 .navbar-dark {
-    background-color: #512DA8;
+    background-color: #3B0404;
+}
+
+.card-header {
+    background-color: #B95C50;
+}
+
+thead {
+    background-color: #B95C50;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.nav-tabs a {
+    color: #3B0404;
+    font-weight: bold;
 }
