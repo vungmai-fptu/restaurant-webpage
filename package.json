@@ -11,7 +11,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "index.html"
+    "start": "index.html",
+    "scss": "node-sass -o css/ css/"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
     "url": "https://github.com/vungmai-fptu/restaurant-webpage/issues"
   },
   "homepage": "https://github.com/vungmai-fptu/restaurant-webpage#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
 }
