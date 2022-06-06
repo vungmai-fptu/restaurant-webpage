@@ -1,3 +1,6 @@
+a {
+  text-decoration: none; }
+
 .row-header {
   margin: 0px auto;
   padding: 0px 0px; }
@@ -52,3 +55,29 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+.modal-header {
+  color: floralwhite;
+  background-color: #B95C50; }
+
+.modal-body {
+  background-color: #DEB3AD; }
+
+.close {
+  color: floralwhite; }
+
+.btn {
+  text-decoration: none;
+  background-color: #B95C50;
+  color: floralwhite;
+  border: none; }
+
+.btn:hover {
+  color: floralwhite;
+  background: #3B0404; }
+
+.card-header {
+  background-color: #B95C50; }
+
+.jumbotron .btn {
+  background-color: #DEB3AD; }

@@ -6,6 +6,10 @@ $background-pale: #DEB3AD;
 // Height variables
 $carousel-item-height: 300px;
 
+a {
+    text-decoration: none;
+}
+
 @mixin zero-margin($pad-up-dn, $pad-left-right) {
     margin: 0px auto;
     padding: $pad-up-dn $pad-left-right;
@@ -74,3 +78,38 @@ body {
     bottom: 0px;
     z-index: 1;
 }
+
+.modal-header {
+    color: floralwhite;
+    background-color: $background-light;
+}
+
+.modal-body {
+    background-color: $background-pale;
+}
+
+.close {
+    color: floralwhite; 
+}
+
+.btn {
+    text-decoration: none;
+    background-color: $background-light;
+    color: floralwhite;
+    border: none;
+}
+.btn:hover {
+    color: floralwhite;
+    background: $background-dark;
+}
+
+.card-header {
+    background-color: $background-light;
+}
+
+.jumbotron .btn {
+    background-color: $background-pale;
+}
+
+
+
