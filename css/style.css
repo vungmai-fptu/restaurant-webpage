@@ -91,10 +91,18 @@ thead {
     min-height: 300px;
 }
 
-.form-section > :nth-child(2) .btn {
-    background-color: green;
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
 }
 
-.form-section > :last-child .btn {
-    background-color: red;
+
+/* .form-section .btn:first-child {
+    background-color: rgb(110, 220, 125);
 }
+
+.form-section .btn:last-child {
+    background-color: red;
+} */
